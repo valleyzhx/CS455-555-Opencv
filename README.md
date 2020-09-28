@@ -1,9 +1,12 @@
 # CS455/555 Opencv Install
 
 ## Linux:
-  1. [install cmake](https://cgold.readthedocs.io/en/latest/first-step/installation.html)
-  2. [download opencv4.4.0](https://sourceforge.net/projects/opencvlibrary/files/4.4.0/OpenCV%204.4.0.zip/download)
-  3. unzip opencv-4.4.0, then
+install cmake: 
+```
+sudo apt-get -y install cmak
+```
+[download opencv4.4.0](https://sourceforge.net/projects/opencvlibrary/files/4.4.0/OpenCV%204.4.0.zip/download)  
+unzip opencv-4.4.0, then
 ```
 cd opencv-4.4.0
 mkdir build 
