@@ -30,9 +30,12 @@ install homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.c
 brew install pkg-config
 ```
 ```
-cmake -G "Unix Makefiles" ..
-make -j8
-sudo make install
+brew install opencv@4
+```
+
+## verify
+```
+pkg-config --cflags --libs opencv4
 ```
 
 
