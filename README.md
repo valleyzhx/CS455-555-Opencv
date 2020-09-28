@@ -2,7 +2,7 @@
 
 
   1. [install cmake](https://cgold.readthedocs.io/en/latest/first-step/installation.html)
-  2. [download opencv](https://sourceforge.net/projects/opencvlibrary/files/4.4.0/)
+  2. [download opencv4.4.0](https://sourceforge.net/projects/opencvlibrary/files/4.4.0/)
   3. unzip opencv-4.4.0, then
 ```
 cd opencv-4.4.0
