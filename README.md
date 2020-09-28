@@ -24,14 +24,17 @@ sudo ldconfig
 install xcode (search xcode in Apple App Store)
 ```
 sudo xcode-select --install
-install homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+install homebrew: 
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+```
 brew install pkg-config
-```
-```
 brew install opencv@4
 ```
 
-## verify
+## Verify
 ```
 pkg-config --cflags --libs opencv4
 ```
