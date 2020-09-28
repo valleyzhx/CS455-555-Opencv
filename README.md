@@ -1,4 +1,4 @@
-# CS455-555-Opencv Install
+# CS455/555 Opencv Install
 
 
 
